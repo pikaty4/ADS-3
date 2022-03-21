@@ -3,9 +3,9 @@
 nt cbinsearch(int* arr, int size, int value) {
     if (size == 1) {
     if (*arr == value) {
-		 return 1;
-	  }
-    else {
+                     return 1;
+    }
+      else {
       return 0;
     }
     } 
