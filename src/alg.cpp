@@ -1,6 +1,6 @@
 // Copyright 2021 NNTU-CS
 
-nt cbinsearch(int* arr, int size, int value) {
+int cbinsearch(int* arr, int size, int value) {
     if (size == 1) {
     if (*arr == value) {
                      return 1;
