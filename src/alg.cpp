@@ -11,6 +11,6 @@ int cbinsearch(int* arr, int size, int value) {
     } 
     else {
     return cbinsearch(arr, size / 2, value) +
-     cbinsearch(arr + size / 2, size / 2 + (size % 2), value);
+    cbinsearch(arr + size / 2, size / 2 + (size % 2), value);
          }
 }
